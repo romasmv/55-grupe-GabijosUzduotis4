@@ -1,0 +1,56 @@
+@media (max-width: 1350px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 461px) {
+  .header {
+    width: 100%;
+    flex-direction: column;
+  }
+  .main h1{
+    font-size: 25px;
+  }
+  .main p{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 750px) {
+  .btn-section {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+  }
+    .btn-section button{
+    padding:20px 80px;
+    margin-bottom: 10px;
+  }
+  .btn-section :last-child{
+    margin-bottom: 0;
+  }
+
+
+}
+@media (max-width: 510px) {
+  .btn-section button{
+    padding:40px 140px;
+    margin-bottom: 10px;
+  }
+  .btn-section :last-child{
+    margin-bottom: 0;
+  }
+}
+
+
+@media (max-width: 390px) {
+  .btn-section button{
+    padding:40px 120px;
+    margin-bottom: 10px;
+  }
+  .btn-section :last-child{
+    margin-bottom: 0;
+  }
+}
