@@ -87,5 +87,10 @@ body {
     color: white;
     background-color: black;
     padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.footer p{
+    word-spacing: 5px
 }
 
