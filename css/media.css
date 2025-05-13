@@ -10,10 +10,10 @@
     flex-direction: column;
   }
   .main h1{
-    font-size: 25px;
+    font-size: 30px;
   }
   .main p{
-    font-size: 15px;
+    font-size: 18px;
   }
 
 }
@@ -22,7 +22,6 @@
   .btn-section {
     flex-wrap: wrap;
     width: 100%;
-    padding: 1rem;
   }
     .btn-section button{
     padding:20px 80px;
@@ -36,7 +35,8 @@
 }
 @media (max-width: 510px) {
   .btn-section button{
-    padding:40px 140px;
+    width: 100%;
+
     margin-bottom: 10px;
   }
   .btn-section :last-child{
@@ -47,7 +47,6 @@
 
 @media (max-width: 390px) {
   .btn-section button{
-    padding:40px 120px;
     margin-bottom: 10px;
   }
   .btn-section :last-child{
