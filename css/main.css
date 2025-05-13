@@ -44,24 +44,25 @@ body {
 .main{
     width: 1400px;
     text-align: center;
-    padding: 300px;
+    padding: 100px;
     background-color: #E0F7FA;
 }
 
 .main h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .main p{
-    font-size: 25px;
-    padding: 30px;
+    font-size: 20px;
+    padding: 20px;
 }
 
 .main button{
     background-color: #4A90E2 ;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -74,7 +75,7 @@ body {
 
 .btn-section button{
     background-color: #ffffff;
-    padding: 15px 60px;
+    padding: 10px 50px;
     border-radius: 5px;
     margin-left: 15px;
     color:#4A90E2;
